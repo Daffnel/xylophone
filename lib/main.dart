@@ -17,68 +17,82 @@ class XylophoneApp extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              TextButton(
-                style: TextButton.styleFrom(
-                  backgroundColor: Colors.red,
+              Expanded(
+                child: TextButton(
+                  style: TextButton.styleFrom(
+                      backgroundColor: Colors.red,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.zero)),
+                  onPressed: () {
+                    playSound(1);
+                  },
+                  child: Text("1"),
                 ),
-                onPressed: () {
-                  playSound(1);
-                },
-                child: Text("1"),
               ),
-              TextButton(
-                style: TextButton.styleFrom(
-                  backgroundColor: Colors.orange,
+              Expanded(
+                child: TextButton(
+                  style: TextButton.styleFrom(
+                      backgroundColor: Colors.orange,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.zero)),
+                  onPressed: () {
+                    playSound(2);
+                  },
+                  child: Text("2"),
                 ),
-                onPressed: () {
-                  playSound(2);
-                },
-                child: Text("2"),
               ),
-              TextButton(
-                style: TextButton.styleFrom(
-                  backgroundColor: Colors.yellow,
+              Expanded(
+                child: TextButton(
+                  style: TextButton.styleFrom(
+                      backgroundColor: Colors.yellow,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.zero)),
+                  onPressed: () {
+                    playSound(3);
+                  },
+                  child: Text("3"),
                 ),
-                onPressed: () {
-                  playSound(3);
-                },
-                child: Text("3"),
               ),
-              TextButton(
-                style: TextButton.styleFrom(
-                  backgroundColor: Colors.green,
+              Expanded(
+                child: TextButton(
+                  style: TextButton.styleFrom(
+                      backgroundColor: Colors.green,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.zero)),
+                  onPressed: () {
+                    playSound(4);
+                  },
+                  child: Text("4"),
                 ),
-                onPressed: () {
-                  playSound(4);
-                },
-                child: Text("4"),
               ),
-              TextButton(
-                style: TextButton.styleFrom(
-                  backgroundColor: Colors.greenAccent,
+              Expanded(
+                child: TextButton(
+                  style: TextButton.styleFrom(
+                      backgroundColor: Colors.greenAccent,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.zero)),
+                  onPressed: () {
+                    playSound(5);
+                  },
+                  child: Text("5"),
                 ),
-                onPressed: () {
-                  playSound(5);
-                },
-                child: Text("5"),
               ),
-              TextButton(
-                style: TextButton.styleFrom(
-                  backgroundColor: Colors.blue,
+              Expanded(
+                child: TextButton(
+                  style: TextButton.styleFrom(
+                      backgroundColor: Colors.blue,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.zero)),
+                  onPressed: () {
+                    playSound(6);
+                  },
+                  child: Text("6"),
                 ),
-                onPressed: () {
-                  playSound(6);
-                },
-                child: Text("6"),
               ),
-              TextButton(
-                style: TextButton.styleFrom(
-                  backgroundColor: Colors.purple,
+              Expanded(
+                child: TextButton(
+                  style: TextButton.styleFrom(
+                      backgroundColor: Colors.purple,
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.zero)),
+                  onPressed: () {
+                    playSound(7);
+                  },
+                  child: Text("7"),
                 ),
-                onPressed: () {
-                  playSound(7);
-                },
-                child: Text("7"),
               ),
             ],
           ),
